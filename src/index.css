@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-charcoal font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-deep-purple/20 text-charcoal;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-deep-purple via-electric to-coral;
+  }
+
+  .section-padding {
+    @apply px-5 sm:px-8 lg:px-12 py-20 md:py-28;
+  }
+}
