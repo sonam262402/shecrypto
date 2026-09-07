@@ -14,7 +14,6 @@ export const navLinks = [
   { label: 'What I Bring', href: '#what-i-bring' },
   { label: 'What I Can Manage', href: '#what-i-can-manage' },
   { label: 'Ideas', href: '#ideas' },
-  { label: '90-Day Plan', href: '#ninety-day-plan' },
   { label: 'Outcomes', href: '#outcomes' },
   { label: 'Next Step', href: '#next-step' },
 ];
@@ -24,8 +23,12 @@ export const contentEcosystem = [
   'Podcasts',
   'Social Content',
   'Community',
-  'Brand Growth',
+  'Partnerships',
+  'Sustainable Brand Growth',
 ];
+
+export const supportNote =
+  'Depending on the final scope, content volume and production requirements, I might need additional helping hands or specialist support for certain tasks, particularly advanced video or audio editing, graphic design and high-volume production. Any additional support, responsibility and associated cost would be discussed and agreed upon in advance.';
 
 export const serviceCards = [
   {
@@ -83,6 +86,26 @@ export const serviceCards = [
     ],
   },
   {
+    title: 'Sponsorship & Partnership Development',
+    paragraphs: [
+      'As a nonprofit media and educational initiative, aligned sponsors and partners can play an important role in helping SheCrypto expand its content, events, community access and overall impact.',
+      "Before beginning outreach, Sonam would first understand SheCrypto's existing sponsorship structure, audience data, available assets, current partnerships, funding priorities and the value it can offer potential sponsors.",
+      'Once this foundation is clear, Sonam can support:',
+    ],
+    items: [
+      'Identifying suitable sponsor categories and partnership opportunities',
+      'Researching mission-aligned Web3 companies, technology brands, foundations, events and other potential partners',
+      'Building a qualified database of companies and relevant decision-makers',
+      'Developing personalized sponsorship outreach and follow-up messaging',
+      'Managing outreach activity and maintaining an organized sponsorship pipeline',
+      'Preparing prospect research and briefing notes before sponsor conversations',
+      'Supporting sponsorship proposals, presentations and follow-ups',
+      'Helping plan sponsor visibility, content integration and post-campaign reporting',
+    ],
+    note:
+      'The initial phase would focus on understanding the existing sponsorship model and building a structured outreach foundation. Sponsorship results cannot be guaranteed and will depend on the strength of the offering, brand alignment, sponsor budgets, timing and the involvement of the SheCrypto team.',
+  },
+  {
     title: 'Purpose-Led Community',
     description:
       'A future approved-entry Telegram community for women and supportive men in Web3, designed around opportunities, learning, valuable introductions, events, and meaningful discussion.',
@@ -125,41 +148,6 @@ export const contentSeries = [
   },
 ];
 
-export const ninetyDayPlan = [
-  {
-    month: 'Month 1: Foundation',
-    items: [
-      'Audit channels and existing content',
-      'Clarify audience and brand voice',
-      'Build the master content calendar',
-      'Establish approval and publishing workflows',
-      'Begin consistent publishing',
-      'Prioritize the existing content backlog',
-    ],
-  },
-  {
-    month: 'Month 2: Consistency',
-    items: [
-      'Launch recurring content series',
-      'Establish podcast distribution',
-      'Increase event storytelling',
-      'Create guest and partner amplification workflows',
-      'Identify high-performing topics and formats',
-      'Design the Telegram community structure',
-    ],
-  },
-  {
-    month: 'Month 3: Growth',
-    items: [
-      'Launch the Telegram community if operationally ready',
-      'Develop collaborations',
-      'Strengthen YouTube and Shorts',
-      'Scale successful content formats',
-      'Review results and create the next growth roadmap',
-    ],
-  },
-];
-
 export const metrics = [
   'Publishing consistency',
   'Content created per podcast and event',
@@ -170,6 +158,11 @@ export const metrics = [
   'Newsletter and community sign-ups',
   'Event interest',
   'Partnership enquiries',
+  'Qualified sponsorship prospects identified',
+  'Sponsorship outreach and response rates',
+  'Relevant sponsor conversations or meetings',
+  'Sponsorship pipeline development',
+  'Partner amplification and reporting readiness',
 ];
 
 export const pilotDeliverables = [
@@ -178,5 +171,9 @@ export const pilotDeliverables = [
   'Distribution for selected podcast episodes',
   'Content coverage for one major event or campaign',
   'Reusable podcast and event workflows',
-  'End-of-pilot review and 90-day recommendations',
+  'Sponsorship discovery and outreach foundation',
+  'End-of-pilot review and next-step recommendations',
 ];
+
+export const pilotSponsorshipNote =
+  "This would include reviewing SheCrypto's current sponsorship approach, identifying relevant sponsor categories, developing an initial prospect list, preparing outreach messaging and beginning selected outreach after Kelly's approval. The number of leads and outreach messages will be finalized according to the agreed scope and budget.";

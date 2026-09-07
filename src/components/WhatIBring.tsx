@@ -1,4 +1,4 @@
-import { siteConfig } from '../content';
+import { siteConfig, supportNote } from '../content';
 import { AnimateOnScroll } from './AnimateOnScroll';
 import { Card } from './Card';
 import { Section, SectionHeader } from './Section';
@@ -58,6 +58,15 @@ export function WhatIBring() {
             </Card>
           </AnimateOnScroll>
         </div>
+
+        <AnimateOnScroll delay={250}>
+          <div className="mt-12 max-w-3xl rounded-xl border border-charcoal/10 bg-lavender/30 px-6 py-5">
+            <p className="text-sm text-charcoal/65 leading-relaxed">
+              <span className="font-semibold text-charcoal/80">Note: </span>
+              {supportNote}
+            </p>
+          </div>
+        </AnimateOnScroll>
       </div>
     </Section>
   );

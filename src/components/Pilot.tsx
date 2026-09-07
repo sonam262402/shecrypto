@@ -1,4 +1,4 @@
-import { pilotDeliverables } from '../content';
+import { pilotDeliverables, pilotSponsorshipNote } from '../content';
 import { AnimateOnScroll } from './AnimateOnScroll';
 import { Section, SectionHeader } from './Section';
 
@@ -30,6 +30,9 @@ export function Pilot() {
             </ul>
 
             <div className="border-t border-white/20 pt-6 space-y-4">
+              <p className="text-sm text-white/75 leading-relaxed">
+                {pilotSponsorshipNote}
+              </p>
               <p className="text-sm text-white/75 leading-relaxed">
                 Publishing volume and deliverables will be finalized based on priorities, available
                 content, approval capacity, production resources, and budget. Advanced editing, complex

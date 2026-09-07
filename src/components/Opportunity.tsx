@@ -24,6 +24,12 @@ export function Opportunity() {
               depth of work happening behind the scenes. Audiences miss the stories. Partners miss
               the amplification. The brand misses the momentum.
             </p>
+            <p>
+              Consistent content also strengthens SheCrypto&apos;s sponsorship potential. A more visible
+              public presence, clearly documented audience value and stronger partner amplification can
+              make it easier for potential sponsors to understand the platform&apos;s reach, credibility
+              and impact.
+            </p>
             <blockquote className="border-l-4 border-deep-purple pl-6 py-2 my-6 font-display text-xl sm:text-2xl font-semibold text-charcoal italic">
               SheCrypto does not need more disconnected content. It needs one system that turns
               everything already happening into a consistent public narrative.

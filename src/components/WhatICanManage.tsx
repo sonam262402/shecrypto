@@ -10,7 +10,7 @@ export function WhatICanManage() {
         <AnimateOnScroll>
           <SectionHeader
             label="What I Can Manage"
-            title="Five pillars of a connected brand & content engine."
+            title="Six pillars of a connected brand, content & growth engine."
           />
         </AnimateOnScroll>
 
@@ -19,6 +19,16 @@ export function WhatICanManage() {
             <AnimateOnScroll key={card.title} delay={index * 80}>
               <Card>
                 <h3 className="font-display text-2xl font-bold text-charcoal mb-5">{card.title}</h3>
+
+                {'paragraphs' in card && card.paragraphs && (
+                  <div className="space-y-4 mb-5">
+                    {card.paragraphs.map((paragraph) => (
+                      <p key={paragraph} className="text-charcoal/75 leading-relaxed">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                )}
 
                 {'items' in card && card.items && (
                   <ul className="grid sm:grid-cols-2 gap-3">
@@ -95,6 +105,12 @@ export function WhatICanManage() {
                       </p>
                     )}
                   </div>
+                )}
+
+                {!('description' in card && card.description) && card.note && (
+                  <p className="mt-5 text-sm font-medium text-deep-purple bg-deep-purple/5 rounded-lg px-4 py-3 border border-deep-purple/10">
+                    {card.note}
+                  </p>
                 )}
               </Card>
             </AnimateOnScroll>

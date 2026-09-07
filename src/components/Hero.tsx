@@ -24,7 +24,7 @@ export function Hero() {
               visible, and helps SheCrypto grow into a recognizable women-led Web3 media and community brand.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button href="#ninety-day-plan">View the Plan</Button>
+              <Button href="#what-i-can-manage">Explore the Proposal</Button>
               <Button href="#pilot" variant="secondary">Discuss the Pilot</Button>
             </div>
           </AnimateOnScroll>
